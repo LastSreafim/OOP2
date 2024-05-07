@@ -1,11 +1,16 @@
+package vehicle;
+
+import vehicle.Vehicle;
+
 public class Bicycle extends Vehicle {
 
     public Bicycle(String modelMame, int wheelsCount) {
+
         super(modelMame, wheelsCount);
     }
 
     @Override
-    public void updateTyre() {
-        super.updateTyre();
+    public void check() {
+        super.check();
     }
 }
